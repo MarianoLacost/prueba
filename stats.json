@@ -1,0 +1,989 @@
+{
+  "10001": {
+    "es_name": "Garen",
+    "winRate": 52.58,
+    "banRate": 12.66,
+    "pickRate": 17.34,
+    "tier": "S"
+  },
+  "10002": {
+    "es_name": "Aatrox",
+    "winRate": 46.26,
+    "banRate": 4.69,
+    "pickRate": 13.75,
+    "tier": "C"
+  },
+  "10003": {
+    "es_name": "Lux",
+    "winRate": 47.24,
+    "banRate": 9.3,
+    "pickRate": 5.77,
+    "tier": "C"
+  },
+  "10004": {
+    "es_name": "Amumu",
+    "winRate": 47.81,
+    "banRate": 3.37,
+    "pickRate": 14.58,
+    "tier": "B"
+  },
+  "10005": {
+    "es_name": "Kayn",
+    "winRate": 48.51,
+    "banRate": 3.77,
+    "pickRate": 7.92,
+    "tier": "B"
+  },
+  "10006": {
+    "es_name": "Rengar",
+    "winRate": 51.03,
+    "banRate": 8.43,
+    "pickRate": 11.9,
+    "tier": "A"
+  },
+  "10007": {
+    "es_name": "Karma",
+    "winRate": 52.99,
+    "banRate": 13.69,
+    "pickRate": 5.09,
+    "tier": "S"
+  },
+  "10008": {
+    "es_name": "Nunu",
+    "winRate": 52.76,
+    "banRate": 14.4,
+    "pickRate": 6.76,
+    "tier": "S"
+  },
+  "10009": {
+    "es_name": "Wukong",
+    "winRate": 47.46,
+    "banRate": 10.92,
+    "pickRate": 9.53,
+    "tier": "C"
+  },
+  "10010": {
+    "es_name": "Vayne",
+    "winRate": 50.29,
+    "banRate": 13.13,
+    "pickRate": 17.54,
+    "tier": "A"
+  },
+  "10011": {
+    "es_name": "Aike",
+    "winRate": 50.44,
+    "banRate": 14.91,
+    "pickRate": 15.15,
+    "tier": "A"
+  },
+  "10012": {
+    "es_name": "Aolianna",
+    "winRate": 52.96,
+    "banRate": 23.18,
+    "pickRate": 15.21,
+    "tier": "S+"
+  },
+  "10013": {
+    "es_name": "Daianna",
+    "winRate": 53.45,
+    "banRate": 12.95,
+    "pickRate": 8.65,
+    "tier": "S"
+  },
+  "10014": {
+    "es_name": "Zuoyi",
+    "winRate": 49.59,
+    "banRate": 10.92,
+    "pickRate": 14.63,
+    "tier": "A"
+  },
+  "10015": {
+    "es_name": "Taidamier",
+    "winRate": 50.09,
+    "banRate": 10.55,
+    "pickRate": 10.81,
+    "tier": "A"
+  },
+  "10016": {
+    "es_name": "Zhaoxin",
+    "winRate": 53.05,
+    "banRate": 18.31,
+    "pickRate": 16.83,
+    "tier": "S+"
+  },
+  "10017": {
+    "es_name": "Kazike",
+    "winRate": 51.87,
+    "banRate": 13.67,
+    "pickRate": 8.33,
+    "tier": "S"
+  },
+  "10018": {
+    "es_name": "Jinkesi",
+    "winRate": 46.15,
+    "banRate": 11.4,
+    "pickRate": 6.62,
+    "tier": "C"
+  },
+  "10019": {
+    "es_name": "Hekalimu",
+    "winRate": 53.04,
+    "banRate": 23.37,
+    "pickRate": 5.44,
+    "tier": "S+"
+  },
+  "10020": {
+    "es_name": "Youmi",
+    "winRate": 52.63,
+    "banRate": 24.62,
+    "pickRate": 15.3,
+    "tier": "S+"
+  },
+  "10021": {
+    "es_name": "Bulong",
+    "winRate": 51.3,
+    "banRate": 16.64,
+    "pickRate": 12.84,
+    "tier": "S"
+  },
+  "10022": {
+    "es_name": "Jin",
+    "winRate": 50.95,
+    "banRate": 21.57,
+    "pickRate": 4.88,
+    "tier": "S"
+  },
+  "10023": {
+    "es_name": "Aoruilian·suoer",
+    "winRate": 52.21,
+    "banRate": 11.46,
+    "pickRate": 11.38,
+    "tier": "S"
+  },
+  "10024": {
+    "es_name": "Xindela",
+    "winRate": 46.21,
+    "banRate": 1.89,
+    "pickRate": 9.0,
+    "tier": "C"
+  },
+  "10025": {
+    "es_name": "Cuisite",
+    "winRate": 47.5,
+    "banRate": 4.25,
+    "pickRate": 7.59,
+    "tier": "C"
+  },
+  "10026": {
+    "es_name": "Kai'Sa",
+    "winRate": 51.71,
+    "banRate": 16.42,
+    "pickRate": 8.48,
+    "tier": "S"
+  },
+  "10027": {
+    "es_name": "Ni菈",
+    "winRate": 51.14,
+    "banRate": 17.68,
+    "pickRate": 2.83,
+    "tier": "S"
+  },
+  "10028": {
+    "es_name": "Moganna",
+    "winRate": 48.42,
+    "banRate": 14.74,
+    "pickRate": 12.32,
+    "tier": "B"
+  },
+  "10029": {
+    "es_name": "Yifulin",
+    "winRate": 47.88,
+    "banRate": 1.38,
+    "pickRate": 8.24,
+    "tier": "B"
+  },
+  "10030": {
+    "es_name": "Pansen",
+    "winRate": 52.4,
+    "banRate": 14.61,
+    "pickRate": 7.67,
+    "tier": "S"
+  },
+  "10031": {
+    "es_name": "Ekali",
+    "winRate": 46.3,
+    "banRate": 9.6,
+    "pickRate": 13.15,
+    "tier": "C"
+  },
+  "10032": {
+    "es_name": "Feiaona",
+    "winRate": 49.47,
+    "banRate": 11.4,
+    "pickRate": 4.82,
+    "tier": "B"
+  },
+  "10033": {
+    "es_name": "Bulici",
+    "winRate": 46.85,
+    "banRate": 2.64,
+    "pickRate": 14.08,
+    "tier": "C"
+  },
+  "10034": {
+    "es_name": "Salefenni",
+    "winRate": 50.15,
+    "banRate": 18.88,
+    "pickRate": 14.97,
+    "tier": "A"
+  },
+  "10035": {
+    "es_name": "Modekaisa",
+    "winRate": 48.69,
+    "banRate": 16.25,
+    "pickRate": 2.13,
+    "tier": "B"
+  },
+  "10036": {
+    "es_name": "Anni",
+    "winRate": 47.61,
+    "banRate": 13.73,
+    "pickRate": 8.11,
+    "tier": "B"
+  },
+  "10037": {
+    "es_name": "Yasuo",
+    "winRate": 52.58,
+    "banRate": 10.31,
+    "pickRate": 10.25,
+    "tier": "S"
+  },
+  "10038": {
+    "es_name": "Eli",
+    "winRate": 50.26,
+    "banRate": 17.58,
+    "pickRate": 17.97,
+    "tier": "A"
+  },
+  "10039": {
+    "es_name": "Jie",
+    "winRate": 46.73,
+    "banRate": 0.5,
+    "pickRate": 1.97,
+    "tier": "C"
+  },
+  "10040": {
+    "es_name": "Jiakesi",
+    "winRate": 51.7,
+    "banRate": 15.49,
+    "pickRate": 11.96,
+    "tier": "S"
+  },
+  "10041": {
+    "es_name": "Kaier",
+    "winRate": 47.21,
+    "banRate": 3.24,
+    "pickRate": 4.81,
+    "tier": "C"
+  },
+  "10042": {
+    "es_name": "Luxian",
+    "winRate": 48.65,
+    "banRate": 6.84,
+    "pickRate": 6.45,
+    "tier": "B"
+  },
+  "10044": {
+    "es_name": "Leiouna",
+    "winRate": 53.48,
+    "banRate": 26.77,
+    "pickRate": 9.04,
+    "tier": "S+"
+  },
+  "10045": {
+    "es_name": "Cuisitana",
+    "winRate": 51.79,
+    "banRate": 14.93,
+    "pickRate": 11.65,
+    "tier": "S"
+  },
+  "10046": {
+    "es_name": "Timo",
+    "winRate": 47.44,
+    "banRate": 11.16,
+    "pickRate": 2.22,
+    "tier": "C"
+  },
+  "10047": {
+    "es_name": "Suona",
+    "winRate": 47.34,
+    "banRate": 8.73,
+    "pickRate": 11.57,
+    "tier": "C"
+  },
+  "10048": {
+    "es_name": "Lulu",
+    "winRate": 47.29,
+    "banRate": 7.69,
+    "pickRate": 3.86,
+    "tier": "C"
+  },
+  "10049": {
+    "es_name": "Xiwana",
+    "winRate": 49.21,
+    "banRate": 4.53,
+    "pickRate": 10.65,
+    "tier": "B"
+  },
+  "10050": {
+    "es_name": "Wei",
+    "winRate": 46.77,
+    "banRate": 11.42,
+    "pickRate": 3.06,
+    "tier": "C"
+  },
+  "10051": {
+    "es_name": "Xia",
+    "winRate": 50.03,
+    "banRate": 16.4,
+    "pickRate": 4.88,
+    "tier": "A"
+  },
+  "10052": {
+    "es_name": "Luo",
+    "winRate": 49.74,
+    "banRate": 16.74,
+    "pickRate": 11.55,
+    "tier": "A"
+  },
+  "10053": {
+    "es_name": "Tuqi",
+    "winRate": 46.69,
+    "banRate": 1.85,
+    "pickRate": 16.06,
+    "tier": "C"
+  },
+  "10054": {
+    "es_name": "Gewen",
+    "winRate": 48.08,
+    "banRate": 10.05,
+    "pickRate": 9.45,
+    "tier": "B"
+  },
+  "10055": {
+    "es_name": "Kamier",
+    "winRate": 51.0,
+    "banRate": 7.57,
+    "pickRate": 10.39,
+    "tier": "A"
+  },
+  "10056": {
+    "es_name": "Jiawensishi",
+    "winRate": 47.37,
+    "banRate": 10.5,
+    "pickRate": 17.42,
+    "tier": "C"
+  },
+  "10057": {
+    "es_name": "Foyege",
+    "winRate": 46.47,
+    "banRate": 1.49,
+    "pickRate": 1.57,
+    "tier": "C"
+  },
+  "10058": {
+    "es_name": "Wolibeier",
+    "winRate": 46.39,
+    "banRate": 2.2,
+    "pickRate": 9.17,
+    "tier": "C"
+  },
+  "10059": {
+    "es_name": "Liqing",
+    "winRate": 52.54,
+    "banRate": 22.16,
+    "pickRate": 4.71,
+    "tier": "S+"
+  },
+  "10060": {
+    "es_name": "Kuqi",
+    "winRate": 47.48,
+    "banRate": 0.5,
+    "pickRate": 9.69,
+    "tier": "C"
+  },
+  "10061": {
+    "es_name": "Kainan",
+    "winRate": 52.96,
+    "banRate": 17.76,
+    "pickRate": 6.14,
+    "tier": "S+"
+  },
+  "10062": {
+    "es_name": "Mengduoyisheng",
+    "winRate": 50.53,
+    "banRate": 18.66,
+    "pickRate": 2.65,
+    "tier": "S"
+  },
+  "10063": {
+    "es_name": "Jiela",
+    "winRate": 48.89,
+    "banRate": 5.39,
+    "pickRate": 4.26,
+    "tier": "B"
+  },
+  "10064": {
+    "es_name": "Lamosi",
+    "winRate": 50.72,
+    "banRate": 12.16,
+    "pickRate": 9.52,
+    "tier": "S"
+  },
+  "10065": {
+    "es_name": "Neisesi",
+    "winRate": 48.91,
+    "banRate": 2.87,
+    "pickRate": 14.04,
+    "tier": "B"
+  },
+  "10066": {
+    "es_name": "Eyunxiaojie",
+    "winRate": 48.77,
+    "banRate": 14.65,
+    "pickRate": 17.82,
+    "tier": "B"
+  },
+  "10067": {
+    "es_name": "Zeli",
+    "winRate": 49.02,
+    "banRate": 6.82,
+    "pickRate": 1.6,
+    "tier": "B"
+  },
+  "10068": {
+    "es_name": "Seti",
+    "winRate": 48.93,
+    "banRate": 6.42,
+    "pickRate": 17.72,
+    "tier": "B"
+  },
+  "10069": {
+    "es_name": "Yongen",
+    "winRate": 50.46,
+    "banRate": 11.02,
+    "pickRate": 9.57,
+    "tier": "A"
+  },
+  "10070": {
+    "es_name": "Yi",
+    "winRate": 46.03,
+    "banRate": 6.7,
+    "pickRate": 7.1,
+    "tier": "C"
+  },
+  "10071": {
+    "es_name": "Delaiesi",
+    "winRate": 46.67,
+    "banRate": 4.12,
+    "pickRate": 5.25,
+    "tier": "C"
+  },
+  "10072": {
+    "es_name": "Geleifusi",
+    "winRate": 50.11,
+    "banRate": 13.28,
+    "pickRate": 5.58,
+    "tier": "A"
+  },
+  "10073": {
+    "es_name": "Qianjue",
+    "winRate": 47.48,
+    "banRate": 10.8,
+    "pickRate": 13.6,
+    "tier": "C"
+  },
+  "10074": {
+    "es_name": "Maokai",
+    "winRate": 46.61,
+    "banRate": 2.24,
+    "pickRate": 12.35,
+    "tier": "C"
+  },
+  "10075": {
+    "es_name": "Jiana",
+    "winRate": 48.39,
+    "banRate": 6.51,
+    "pickRate": 12.55,
+    "tier": "B"
+  },
+  "10076": {
+    "es_name": "Bobi",
+    "winRate": 52.58,
+    "banRate": 22.87,
+    "pickRate": 5.09,
+    "tier": "S+"
+  },
+  "10077": {
+    "es_name": "Delaiwen",
+    "winRate": 52.27,
+    "banRate": 20.45,
+    "pickRate": 12.3,
+    "tier": "S"
+  },
+  "10078": {
+    "es_name": "Naer",
+    "winRate": 50.81,
+    "banRate": 7.58,
+    "pickRate": 10.38,
+    "tier": "A"
+  },
+  "10079": {
+    "es_name": "Aixi",
+    "winRate": 52.14,
+    "banRate": 9.72,
+    "pickRate": 16.74,
+    "tier": "S"
+  },
+  "10080": {
+    "es_name": "Jilan",
+    "winRate": 47.84,
+    "banRate": 12.39,
+    "pickRate": 11.68,
+    "tier": "B"
+  },
+  "10081": {
+    "es_name": "Elisita",
+    "winRate": 48.12,
+    "banRate": 11.26,
+    "pickRate": 17.57,
+    "tier": "B"
+  },
+  "10082": {
+    "es_name": "Anbeisa",
+    "winRate": 47.05,
+    "banRate": 7.29,
+    "pickRate": 12.76,
+    "tier": "C"
+  },
+  "10083": {
+    "es_name": "Mofeite",
+    "winRate": 50.1,
+    "banRate": 8.08,
+    "pickRate": 14.5,
+    "tier": "A"
+  },
+  "10084": {
+    "es_name": "Naideli",
+    "winRate": 48.17,
+    "banRate": 7.31,
+    "pickRate": 12.55,
+    "tier": "B"
+  },
+  "10085": {
+    "es_name": "Eluola",
+    "winRate": 50.06,
+    "banRate": 14.78,
+    "pickRate": 2.52,
+    "tier": "A"
+  },
+  "10086": {
+    "es_name": "Fizz",
+    "winRate": 46.16,
+    "banRate": 7.16,
+    "pickRate": 2.59,
+    "tier": "C"
+  },
+  "10087": {
+    "es_name": "Jigesi",
+    "winRate": 52.53,
+    "banRate": 23.98,
+    "pickRate": 15.19,
+    "tier": "S+"
+  },
+  "10088": {
+    "es_name": "Kejiasi",
+    "winRate": 50.44,
+    "banRate": 8.68,
+    "pickRate": 8.89,
+    "tier": "A"
+  },
+  "10089": {
+    "es_name": "Gulajiasi",
+    "winRate": 51.99,
+    "banRate": 11.25,
+    "pickRate": 8.04,
+    "tier": "S"
+  },
+  "10090": {
+    "es_name": "Fulajimier",
+    "winRate": 52.5,
+    "banRate": 21.42,
+    "pickRate": 11.96,
+    "tier": "S"
+  },
+  "10091": {
+    "es_name": "Namei",
+    "winRate": 51.98,
+    "banRate": 15.58,
+    "pickRate": 16.48,
+    "tier": "S"
+  },
+  "10092": {
+    "es_name": "Riven",
+    "winRate": 51.13,
+    "banRate": 21.21,
+    "pickRate": 12.31,
+    "tier": "S"
+  },
+  "10093": {
+    "es_name": "Weilusi",
+    "winRate": 52.41,
+    "banRate": 12.25,
+    "pickRate": 8.08,
+    "tier": "S"
+  },
+  "10094": {
+    "es_name": "Airuiliya",
+    "winRate": 48.86,
+    "banRate": 5.8,
+    "pickRate": 14.78,
+    "tier": "B"
+  },
+  "10095": {
+    "es_name": "Katelinna",
+    "winRate": 50.15,
+    "banRate": 16.89,
+    "pickRate": 7.82,
+    "tier": "A"
+  },
+  "10096": {
+    "es_name": "Xinjide",
+    "winRate": 46.73,
+    "banRate": 4.98,
+    "pickRate": 8.94,
+    "tier": "C"
+  },
+  "10097": {
+    "es_name": "Suolaka",
+    "winRate": 48.04,
+    "banRate": 4.38,
+    "pickRate": 9.14,
+    "tier": "B"
+  },
+  "10098": {
+    "es_name": "Yizeruier",
+    "winRate": 48.8,
+    "banRate": 16.7,
+    "pickRate": 11.39,
+    "tier": "B"
+  },
+  "10099": {
+    "es_name": "Jialiao",
+    "winRate": 49.51,
+    "banRate": 9.49,
+    "pickRate": 16.64,
+    "tier": "A"
+  },
+  "10100": {
+    "es_name": "Ekeshang",
+    "winRate": 53.29,
+    "banRate": 16.86,
+    "pickRate": 16.93,
+    "tier": "S+"
+  },
+  "10101": {
+    "es_name": "Jayce",
+    "winRate": 50.77,
+    "banRate": 18.38,
+    "pickRate": 7.22,
+    "tier": "S"
+  },
+  "10102": {
+    "es_name": "Ejiate",
+    "winRate": 48.45,
+    "banRate": 7.99,
+    "pickRate": 7.25,
+    "tier": "B"
+  },
+  "10103": {
+    "es_name": "Kasading",
+    "winRate": 51.79,
+    "banRate": 11.81,
+    "pickRate": 13.95,
+    "tier": "S"
+  },
+  "10104": {
+    "es_name": "Shamila",
+    "winRate": 47.86,
+    "banRate": 11.64,
+    "pickRate": 2.83,
+    "tier": "B"
+  },
+  "10105": {
+    "es_name": "Bade",
+    "winRate": 50.44,
+    "banRate": 6.52,
+    "pickRate": 10.74,
+    "tier": "A"
+  },
+  "10106": {
+    "es_name": "Aolafu",
+    "winRate": 46.31,
+    "banRate": 10.02,
+    "pickRate": 2.41,
+    "tier": "C"
+  },
+  "10107": {
+    "es_name": "Xiweier",
+    "winRate": 50.15,
+    "banRate": 17.38,
+    "pickRate": 12.67,
+    "tier": "A"
+  },
+  "10108": {
+    "es_name": "Miliou",
+    "winRate": 47.63,
+    "banRate": 8.34,
+    "pickRate": 3.28,
+    "tier": "B"
+  },
+  "10109": {
+    "es_name": "Lisangzhuo",
+    "winRate": 49.98,
+    "banRate": 19.94,
+    "pickRate": 8.1,
+    "tier": "A"
+  },
+  "10110": {
+    "es_name": "Kegemo",
+    "winRate": 47.06,
+    "banRate": 10.84,
+    "pickRate": 4.91,
+    "tier": "C"
+  },
+  "10112": {
+    "es_name": "Kaitelin",
+    "winRate": 47.45,
+    "banRate": 4.96,
+    "pickRate": 9.08,
+    "tier": "C"
+  },
+  "10116": {
+    "es_name": "Ruier",
+    "winRate": 48.42,
+    "banRate": 8.86,
+    "pickRate": 2.54,
+    "tier": "B"
+  },
+  "10117": {
+    "es_name": "Sikana",
+    "winRate": 49.58,
+    "banRate": 17.54,
+    "pickRate": 11.75,
+    "tier": "A"
+  },
+  "10118": {
+    "es_name": "Shen",
+    "winRate": 49.26,
+    "banRate": 7.99,
+    "pickRate": 16.19,
+    "tier": "B"
+  },
+  "10119": {
+    "es_name": "Bulande",
+    "winRate": 52.14,
+    "banRate": 13.64,
+    "pickRate": 10.81,
+    "tier": "S"
+  },
+  "10121": {
+    "es_name": "Leikedun",
+    "winRate": 46.21,
+    "banRate": 0.5,
+    "pickRate": 13.39,
+    "tier": "C"
+  },
+  "10122": {
+    "es_name": "Weijia",
+    "winRate": 51.03,
+    "banRate": 11.1,
+    "pickRate": 13.97,
+    "tier": "S"
+  },
+  "10123": {
+    "es_name": "Saina",
+    "winRate": 51.99,
+    "banRate": 23.04,
+    "pickRate": 4.25,
+    "tier": "S"
+  },
+  "10124": {
+    "es_name": "Paike",
+    "winRate": 49.88,
+    "banRate": 6.94,
+    "pickRate": 17.04,
+    "tier": "A"
+  },
+  "10125": {
+    "es_name": "Saien",
+    "winRate": 48.68,
+    "banRate": 10.8,
+    "pickRate": 14.01,
+    "tier": "B"
+  },
+  "10126": {
+    "es_name": "Siweiyin",
+    "winRate": 52.5,
+    "banRate": 19.15,
+    "pickRate": 12.56,
+    "tier": "S"
+  },
+  "10127": {
+    "es_name": "Heimodingge",
+    "winRate": 52.87,
+    "banRate": 12.12,
+    "pickRate": 12.82,
+    "tier": "S"
+  },
+  "10128": {
+    "es_name": "Tailong",
+    "winRate": 51.51,
+    "banRate": 12.76,
+    "pickRate": 8.79,
+    "tier": "S"
+  },
+  "10129": {
+    "es_name": "Weikezi",
+    "winRate": 51.97,
+    "banRate": 13.69,
+    "pickRate": 6.65,
+    "tier": "S"
+  },
+  "10130": {
+    "es_name": "Chuishi",
+    "winRate": 49.94,
+    "banRate": 13.26,
+    "pickRate": 16.08,
+    "tier": "A"
+  },
+  "10131": {
+    "es_name": "Wolike",
+    "winRate": 49.9,
+    "banRate": 9.89,
+    "pickRate": 2.3,
+    "tier": "A"
+  },
+  "10132": {
+    "es_name": "Nuotilesi",
+    "winRate": 51.85,
+    "banRate": 12.68,
+    "pickRate": 4.39,
+    "tier": "S"
+  },
+  "10133": {
+    "es_name": "Feidetike",
+    "winRate": 46.65,
+    "banRate": 4.08,
+    "pickRate": 6.29,
+    "tier": "C"
+  },
+  "10134": {
+    "es_name": "Kalisita",
+    "winRate": 52.26,
+    "banRate": 16.72,
+    "pickRate": 3.42,
+    "tier": "S"
+  },
+  "10135": {
+    "es_name": "Liliya",
+    "winRate": 46.53,
+    "banRate": 7.9,
+    "pickRate": 5.61,
+    "tier": "C"
+  },
+  "10136": {
+    "es_name": "Aoen",
+    "winRate": 51.34,
+    "banRate": 8.92,
+    "pickRate": 17.73,
+    "tier": "A"
+  },
+  "10137": {
+    "es_name": "Ruizi",
+    "winRate": 46.47,
+    "banRate": 12.51,
+    "pickRate": 4.42,
+    "tier": "C"
+  },
+  "10138": {
+    "es_name": "Simode",
+    "winRate": 46.31,
+    "banRate": 4.48,
+    "pickRate": 6.33,
+    "tier": "C"
+  },
+  "10139": {
+    "es_name": "Meier",
+    "winRate": 47.99,
+    "banRate": 12.55,
+    "pickRate": 3.01,
+    "tier": "B"
+  },
+  "10140": {
+    "es_name": "Lanbo",
+    "winRate": 49.78,
+    "banRate": 17.36,
+    "pickRate": 9.95,
+    "tier": "A"
+  },
+  "10141": {
+    "es_name": "Weigusi",
+    "winRate": 46.05,
+    "banRate": 9.73,
+    "pickRate": 16.27,
+    "tier": "C"
+  },
+  "10144": {
+    "es_name": "Weiketuo",
+    "winRate": 49.21,
+    "banRate": 11.67,
+    "pickRate": 5.91,
+    "tier": "B"
+  },
+  "10146": {
+    "es_name": "Taliya",
+    "winRate": 50.66,
+    "banRate": 8.29,
+    "pickRate": 15.32,
+    "tier": "A"
+  },
+  "10148": {
+    "es_name": "Yunena",
+    "winRate": 51.94,
+    "banRate": 12.06,
+    "pickRate": 11.85,
+    "tier": "S"
+  },
+  "10151": {
+    "es_name": "Moteng",
+    "winRate": 49.23,
+    "banRate": 5.62,
+    "pickRate": 3.29,
+    "tier": "B"
+  },
+  "10152": {
+    "es_name": "K'Sante",
+    "winRate": 50.25,
+    "banRate": 10.85,
+    "pickRate": 9.53,
+    "tier": "A"
+  },
+  "10166": {
+    "es_name": "Norra",
+    "winRate": 50.31,
+    "banRate": 9.54,
+    "pickRate": 6.55,
+    "tier": "A"
+  }
+}

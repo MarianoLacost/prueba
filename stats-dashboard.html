@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARIANOLACOST - Stats de Campeones (Wild Rift)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0A0A0C;
+            --surface: #1C1C1F;
+            --surface-hover: #29292D;
+            --border: #3A3A40;
+            --gold: #C8AA6E;
+            --gold-hover: #F0E6D2;
+            --text-main: #F0E6D2;
+            --text-muted: #A09B8C;
+            --win-green: #00C853;
+            --ban-red: #FF3D00;
+            --tier-s-plus: #FF4081;
+            --tier-s: #FF8F00;
+            --tier-a: #2962FF;
+            --tier-b: #00C853;
+            --tier-c: #9E9E9E;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background-color: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .wordmark {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: var(--gold);
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        input, select {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--gold);
+        }
+
+        input {
+            flex-grow: 1;
+            min-width: 250px;
+        }
+
+        /* Stats Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            border-color: var(--gold);
+        }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 2px solid var(--border);
+        }
+
+        .card:hover .avatar {
+            border-color: var(--gold);
+        }
+
+        .info {
+            flex-grow: 1;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0 0 4px 0;
+            color: var(--gold-hover);
+        }
+
+        .role {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 12px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .stat {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .stat-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+
+        .wr { color: var(--win-green); }
+        .br { color: var(--ban-red); }
+
+        .tier-badge {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 800;
+            font-size: 14px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background-color: #000;
+        }
+
+        .tier-S\+ { color: var(--tier-s-plus); border: 1px solid var(--tier-s-plus); }
+        .tier-S { color: var(--tier-s); border: 1px solid var(--tier-s); }
+        .tier-A { color: var(--tier-a); border: 1px solid var(--tier-a); }
+        .tier-B { color: var(--tier-b); border: 1px solid var(--tier-b); }
+        .tier-C { color: var(--tier-c); border: 1px solid var(--tier-c); }
+
+        .loading-state {
+            text-align: center;
+            padding: 50px;
+            color: var(--gold);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .controls { flex-direction: column; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="wordmark">MARIANOLACOST</div>
+        <div class="tagline">Meta Tracker - Wild Rift Stats</div>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Buscar campeón... (ej. Garen)">
+            <select id="sortSelect">
+                <option value="wr-desc">Win Rate (Mayor a Menor)</option>
+                <option value="wr-asc">Win Rate (Menor a Mayor)</option>
+                <option value="br-desc">Ban Rate (Mayor a Menor)</option>
+                <option value="name-asc">Nombre (A-Z)</option>
+            </select>
+        </div>
+
+        <div id="loading" class="loading-state">Cargando base de datos y conectando API...</div>
+        <div id="grid" class="grid" style="display: none;"></div>
+    </div>
+
+    <script>
+        let champsData = [];
+
+        async function initDashboard() {
+            try {
+                // Fetching the simulated stats and the hero dictionary
+                const [statsRes, heroRes] = await Promise.all([
+                    fetch('stats.json'),
+                    fetch('hero_list.json')
+                ]);
+
+                const statsData = await statsRes.json();
+                const heroDict = await heroRes.json();
+                const heroList = heroDict.heroList;
+
+                // Merge the data
+                champsData = Object.keys(heroList).map(id => {
+                    const h = heroList[id];
+                    const s = statsData[id] || { es_name: h.alias || 'Desconocido', winRate: 0, banRate: 0, tier: 'C' };
+                    
+                    return {
+                        id: id,
+                        avatar: h.avatar,
+                        name: s.es_name, // Using our translated/mapped name
+                        role: h.roles ? h.roles.join(', ') : 'Rol', // Chinese roles, could map them too but let's keep it simple
+                        winRate: s.winRate,
+                        banRate: s.banRate,
+                        tier: s.tier
+                    };
+                });
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('grid').style.display = 'grid';
+                
+                renderGrid(champsData);
+                setupFilters();
+
+            } catch (error) {
+                document.getElementById('loading').innerText = 'Error cargando los datos. Asegurate de correr esto en un servidor local (o GitHub Pages/Hostinger).';
+                console.error(error);
+            }
+        }
+
+        function renderGrid(data) {
+            const grid = document.getElementById('grid');
+            grid.innerHTML = '';
+
+            data.forEach(champ => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <img src="${champ.avatar}" class="avatar" alt="${champ.name}" loading="lazy" onerror="this.src='../assets/icon-fallback.svg'">
+                    <div class="info">
+                        <h3 class="name">${champ.name}</h3>
+                        <div class="role">#${champ.id}</div>
+                        <div class="stats-row">
+                            <div class="stat">
+                                <span class="stat-label">WIN RATE</span>
+                                <span class="wr">${champ.winRate.toFixed(1)}%</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">BAN RATE</span>
+                                <span class="br">${champ.banRate.toFixed(1)}%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tier-badge tier-${champ.tier}">${champ.tier}</div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function setupFilters() {
+            const searchInput = document.getElementById('searchInput');
+            const sortSelect = document.getElementById('sortSelect');
+
+            function applyFilters() {
+                const query = searchInput.value.toLowerCase();
+                const sortType = sortSelect.value;
+
+                // Filter
+                let filtered = champsData.filter(c => c.name.toLowerCase().includes(query));
+
+                // Sort
+                filtered.sort((a, b) => {
+                    if (sortType === 'wr-desc') return b.winRate - a.winRate;
+                    if (sortType === 'wr-asc') return a.winRate - b.winRate;
+                    if (sortType === 'br-desc') return b.banRate - a.banRate;
+                    if (sortType === 'name-asc') return a.name.localeCompare(b.name);
+                });
+
+                renderGrid(filtered);
+            }
+
+            searchInput.addEventListener('input', applyFilters);
+            sortSelect.addEventListener('change', applyFilters);
+            
+            // Initial sort
+            applyFilters();
+        }
+
+        document.addEventListener('DOMContentLoaded', initDashboard);
+    </script>
+</body>
+</html>
